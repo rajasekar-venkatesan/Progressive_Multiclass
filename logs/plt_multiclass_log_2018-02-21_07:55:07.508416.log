@@ -1,0 +1,28 @@
+INFO:__main__:File[main.py]:Function[main]:Line[26]:: Executing plt_multiclass with the arguements received
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[10]:: Results directory: ../results/
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[41]:: Loading and preprocessing data...
+INFO:__main__:File[data_utils.py]:Function[load_csv]:Line[36]:: Loading dataset done.
+INFO:__main__:File[data_utils.py]:Function[get_feats_labels]:Line[40]:: Extracting features and labels...
+INFO:__main__:File[data_utils.py]:Function[get_feats_labels]:Line[56]:: Extracting features and labels done.
+INFO:__main__:File[data_utils.py]:Function[scale_features]:Line[60]:: Scaling features...
+INFO:__main__:File[data_utils.py]:Function[scale_features]:Line[80]:: Scaling features done.
+INFO:__main__:File[data_utils.py]:Function[split_train_test]:Line[84]:: Splitting into train and test data...
+INFO:__main__:File[data_utils.py]:Function[split_train_test]:Line[108]:: Splitting into train and test data complete.
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[49]:: Loading and preprocessing data done
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[52]:: Creating PLT ELM model
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[65]:: Begin Training...
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[73]:: Training Complete
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[76]:: Begin Testing...
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[79]:: Testing Complete
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[83]:: 
+Classification Report: 
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         5
+          2       1.00      1.00      1.00         8
+
+avg / total       1.00      1.00      1.00        15
+
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[84]:: 
+Accuracy: 1.0

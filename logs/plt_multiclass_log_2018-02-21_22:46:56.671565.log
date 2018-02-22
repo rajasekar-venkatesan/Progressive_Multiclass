@@ -1,0 +1,168 @@
+INFO:__main__:File[main.py]:Function[main]:Line[40]:: Executing plt_multiclass with the arguements received
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[10]:: Results directory: ../results/
+DEBUG:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[16]:: Results filepath: ../results/plt_multiclass_results_2018-02-21_22:46:56.671565.results
+DEBUG:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[29]:: Dataset File: ../datasets/iris_plt.csv, Scaling Type: minmax, Test ratio: 0.1
+DEBUG:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[30]:: Header attribute in pandas read_csv: infer, label location in csv: last
+DEBUG:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[37]:: Hidden layer neurons: 10, Number of samples in initial block: 30, Batch size for training: 1
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[41]:: Loading and preprocessing data...
+DEBUG:__main__:File[data_utils.py]:Function[load_csv]:Line[29]:: Loading dataset from file: ../datasets/iris_plt.csv...
+DEBUG:__main__:File[data_utils.py]:Function[load_csv]:Line[35]:: Loaded 150 samples from the file iris_plt.csv
+INFO:__main__:File[data_utils.py]:Function[load_csv]:Line[36]:: Loading dataset done.
+INFO:__main__:File[data_utils.py]:Function[get_feats_labels]:Line[40]:: Extracting features and labels...
+DEBUG:__main__:File[data_utils.py]:Function[get_feats_labels]:Line[55]:: Extracted 4 features
+INFO:__main__:File[data_utils.py]:Function[get_feats_labels]:Line[56]:: Extracting features and labels done.
+INFO:__main__:File[data_utils.py]:Function[scale_features]:Line[60]:: Scaling features...
+DEBUG:__main__:File[data_utils.py]:Function[scale_features]:Line[61]:: scaling type: minmax
+INFO:__main__:File[data_utils.py]:Function[scale_features]:Line[66]:: Performing minmax scaler
+INFO:__main__:File[data_utils.py]:Function[scale_features]:Line[83]:: Scaling features done.
+INFO:__main__:File[data_utils.py]:Function[split_train_test]:Line[87]:: Splitting into train and test data... Test ratio: 0.1
+INFO:__main__:File[data_utils.py]:Function[split_train_test]:Line[99]:: Test size: 15
+DEBUG:__main__:File[data_utils.py]:Function[split_train_test]:Line[105]:: train_X: (135, 4) train_y: (135,)test_X: (15, 4) test_y: (15,)
+INFO:__main__:File[data_utils.py]:Function[split_train_test]:Line[109]:: Splitting into train and test data complete.
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[49]:: Loading and preprocessing data done
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[52]:: Creating PLT ELM model
+DEBUG:__main__:File[data_utils.py]:Function[set_initial_batch_size]:Line[118]:: Setting initial batch size to 30
+DEBUG:__main__:File[data_utils.py]:Function[set_training_batch_size]:Line[123]:: Setting training batch size to 1
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[65]:: Begin Training...
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[137]:: Fetching data. Initial batch size: 30,Training batch size: 1, Train_X: (135, 4), Train_y: (135,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[144]:: Yielding batch 0 data, X: (30, 4), y: (30,)
+DEBUG:__main__:File[plt.py]:Function[initial_batch]:Line[26]:: Processing Initial Batch
+DEBUG:__main__:File[plt.py]:Function[_update_labels]:Line[154]:: Updating labels...
+DEBUG:__main__:File[plt.py]:Function[_update_labels]:Line[163]:: Updating labels done.
+DEBUG:__main__:File[plt.py]:Function[initial_batch]:Line[34]:: Initial batch processed
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 1 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 2 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[plt.py]:Function[train]:Line[41]:: Updating model architecture...
+DEBUG:__main__:File[plt.py]:Function[_update_model_architecture]:Line[111]:: Updating model architecture...
+DEBUG:__main__:File[plt.py]:Function[_update_labels]:Line[154]:: Updating labels...
+DEBUG:__main__:File[plt.py]:Function[_update_labels]:Line[163]:: Updating labels done.
+DEBUG:__main__:File[plt.py]:Function[_update_model_architecture]:Line[133]:: Updating model architecture done.
+DEBUG:__main__:File[plt.py]:Function[train]:Line[43]:: Updating model architecture done.
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 3 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 4 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 5 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 6 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 7 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 8 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 9 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 10 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 11 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 12 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 13 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 14 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 15 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 16 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 17 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 18 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 19 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 20 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 21 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 22 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 23 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 24 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 25 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 26 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 27 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 28 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 29 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 30 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 31 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 32 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 33 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 34 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 35 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 36 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 37 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 38 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 39 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 40 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 41 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 42 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 43 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 44 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 45 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 46 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 47 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 48 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 49 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 50 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 51 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 52 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 53 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 54 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 55 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 56 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 57 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 58 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 59 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 60 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 61 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 62 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 63 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 64 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 65 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 66 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 67 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 68 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 69 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 70 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 71 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 72 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 73 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 74 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 75 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 76 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 77 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 78 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 79 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 80 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 81 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 82 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 83 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 84 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 85 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 86 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 87 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 88 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 89 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 90 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 91 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 92 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 93 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 94 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 95 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 96 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 97 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 98 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 99 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 100 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 101 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 102 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 103 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 104 data, X: (1, 4), y: (1,)
+DEBUG:__main__:File[data_utils.py]:Function[fetch_train_data]:Line[158]:: Yielding batch 105 data, X: (1, 4), y: (1,)
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[73]:: Training Complete
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[76]:: Begin Testing...
+DEBUG:__main__:File[plt.py]:Function[test]:Line[69]:: Testing...
+DEBUG:__main__:File[plt.py]:Function[predict]:Line[52]:: Predicting outputs...
+DEBUG:__main__:File[plt.py]:Function[predict]:Line[59]:: Predicting outputs done.
+DEBUG:__main__:File[plt.py]:Function[get_label_indices]:Line[63]:: Getting label indices
+DEBUG:__main__:File[plt.py]:Function[get_label_indices]:Line[65]:: Returning label indices
+DEBUG:__main__:File[plt.py]:Function[test]:Line[72]:: Testing done. Generating results
+DEBUG:__main__:File[plt.py]:Function[test]:Line[74]:: Generating classification report...
+DEBUG:__main__:File[plt.py]:Function[test]:Line[76]:: Generating classification report done.
+DEBUG:__main__:File[plt.py]:Function[test]:Line[81]:: Calculating accuracy score...
+DEBUG:__main__:File[plt.py]:Function[test]:Line[83]:: Calculating accuracy score done.
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[79]:: Testing Complete
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[83]:: 
+Classification Report: 
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         2
+          1       1.00      1.00      1.00         5
+          2       1.00      1.00      1.00         8
+
+avg / total       1.00      1.00      1.00        15
+
+INFO:__main__:File[plt_mcc.py]:Function[plt_multiclass]:Line[84]:: 
+Accuracy: 1.0
